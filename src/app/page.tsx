@@ -1,6 +1,8 @@
+"use client";
+import Home from "./components/home";
 
-export default function Home() {
+export default function App() {
   return (
-      <p>Hello world</p>
+    <Home />
   );
 }
